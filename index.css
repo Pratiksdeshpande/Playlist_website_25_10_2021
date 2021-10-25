@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Rampart+One&family=Varela+Round&display=swap');
+body{
+    background-image: url(/Assets/Backgraound_Images/backgraound\ 03.jpg);
+}
+
+*{
+    margin: 1px;
+    padding: 1px;
+}
+.Navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    background: #f6bd60;
+    opacity: 0.9;
+    top:10px;
+    position: sticky;
+    border-radius: 36px;
+}
+.Navbar_Items1{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items:center;
+    position:absolute;
+    left: 2vw;
+}
+.Logo{
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 10px 5px;
+}
+.Brand_Name{
+    font-family: 'Amita', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2px 5px;
+    color: #000;    
+}
+.Navbar_Items2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    list-style:none ;
+    color: #000;
+    font-family: 'Rampart One', cursive;
+    font-weight: bold ;
+    padding: 5px;    
+}
+.Navbar_Items2 li{
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding: 1px 12px;
+    margin: 1px 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.Navbar_Items2 li:hover {
+    box-shadow:8px 8px 6px 3px rgba(38, 58, 53, 0.5);
+    border-radius: 20px;
+    transform: scale(1.1);
+    color: black;
+}
+.settings{
+    padding: 15px 5px;
+    position: absolute;
+    right: 5vh;
+}
+.settings :hover{
+    transform: rotate(90deg);
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 50px auto;
+    min-height: 85vh;
+    width: 65%;
+    background: #6b6557;
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+.SongList{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width:46vw ;
+    margin: 10px 10px;
+    padding: 10px ;
+    
+}
+.Playlist_Name{
+    font-weight: bold;
+    /* display: block; */
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+}
+.SongItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width:auto;
+    margin: 10px;
+    padding: 5px;
+    background: #83c5be;
+    border-radius: 15px;
+}
+.SongItem:hover{
+    box-shadow:10px 10px 5px 3px rgba(36, 54, 50, 0.5);
+    transform: scale(1.1);
+
+}
+.CoverImage{
+    width: auto;
+    height: 50px;
+    border-radius: 3em;
+    padding: 2px 2px;
+    margin: 2px 2px;
+}
+.song_Name{
+    min-width: 30%;
+    height: auto;
+    padding: 10px; 
+    margin: 5px 10px;
+}
+.Play_Pause_Button{
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.Bottom{
+    position: sticky;
+    bottom: 2px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 100px;
+    opacity: 0.8;
+    background: #c8e7ff;  
+    border-radius: 20px;
+}
+#Progress_Bar{
+    width: 70vw;
+    cursor: pointer;
+
+}
+#Progress_Bar:hover{
+    box-shadow:5px 5px 6px 2px rgba(38, 58, 53, 0.5);
+
+}
+
+.bottom-icons{
+    margin-top: 8px;
+} 
+.bottom-icons img {
+    margin: 0px 10px;
+    cursor: pointer;   
+}
+.song_info{
+    position: absolute;
+    left: 14vw;
+    font-family: 'Varela Round', sans-serif;
+}
